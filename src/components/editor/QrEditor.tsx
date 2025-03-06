@@ -312,7 +312,7 @@ export function Editor(props: Props) {
         onBlur={props.onTextBlur}
         ref={props.textRef}
       />
-      <Collapsible trigger="Data">
+      <Collapsible trigger="数据">
         <Settings />
       </Collapsible>
       <Collapsible trigger="Render" defaultOpen>
@@ -391,7 +391,7 @@ export function Editor(props: Props) {
             return (
               <>
                 <p class="mb-4 text-sm">
-                  Are you sure you want to delete this function?
+                  您确定要删除此功能吗？
                 </p>
                 <div class="flex justify-end gap-2">
                   <FillButton
@@ -406,9 +406,9 @@ export function Editor(props: Props) {
                       close();
                     }}
                   >
-                    Confirm
+                    确定
                   </FillButton>
-                  <FlatButton onMouseDown={close}>Cancel</FlatButton>
+                  <FlatButton onMouseDown={close}>返回</FlatButton>
                 </div>
               </>
             );
@@ -417,7 +417,7 @@ export function Editor(props: Props) {
         <div class="py-4 flex flex-col gap-4">
           <div class="h-[180px] md:(h-unset)">
             <div class="flex justify-between">
-              <div class="text-sm py-2 border border-transparent">Presets</div>
+              <div class="text-sm py-2 border border-transparent">预设</div>
               <div class="flex gap-2">
                 <div class="flex items-center font-bold">{renderKey()}</div>
                 <Show when={!presetKeys.includes(renderKey())}>
@@ -469,7 +469,7 @@ export function Editor(props: Props) {
               </ContextMenuProvider>
               <Preview
                 onClick={() => createAndSelectFunc("custom", Tutorial)}
-                label="Create new"
+                label="创建新的"
                 active={false}
               >
                 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
