@@ -485,7 +485,7 @@ export function Editor(props: Props) {
           <ParamsEditor />
           <div>
             <Switch
-              label="Code editor"
+              label="代码编辑器"
               value={showCode()}
               setValue={setShowCode}
             />
