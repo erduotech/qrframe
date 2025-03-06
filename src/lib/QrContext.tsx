@@ -72,7 +72,7 @@ export const QrContext = createContext<{
 
 export function QrContextProvider(props: { children: JSX.Element }) {
   const [inputQr, setInputQr] = createStore<InputQr>({
-    text: "https://qrframe.kylezhe.ng",
+    text: "请输入要生成的网址，或者文字内容",
     minVersion: 1,
     strictVersion: false,
     minEcl: ECL.Low,
