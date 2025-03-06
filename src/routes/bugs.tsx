@@ -8,7 +8,7 @@ export default function Bugs() {
           If you have Github account, feel free to file a{" "}
           <a
             class="text-rose-500 font-semibold hover:text-rose-400 focus-visible:(outline-none ring-2 ring-fore-base ring-offset-2 ring-offset-back-base)"
-            href="https://github.com/zhengkyl/qrframe/issues"
+            href="https://qrcode.yes.al"
             target="_blank"
           >
             Github issue
@@ -18,7 +18,7 @@ export default function Bugs() {
         <p>
           Otherwise, you can just email me at hi
           <AtSign class="inline h-4 w-4" />
-          kylezhe.ng
+          Yes.Al
         </p>
       </div>
     </main>
