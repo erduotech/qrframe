@@ -9,10 +9,10 @@ export default createHandler(() => (
           <meta charset="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.svg" />
-          <title>qrframe - a code based QR code designer</title>
+          <title>个性二维码生成 - 基于代码的QR代码设计师</title>
           <meta
             name="description"
-            content="Create beautiful QR codes using Javascript code with this customizable QR code generator."
+            content="使用此可自定义的QR码生成器使用JavaScript代码创建漂亮的QR码。"
           />
           {assets}
         </head>
