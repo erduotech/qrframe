@@ -15,24 +15,24 @@ export default function App() {
       <footer class="text-sm flex justify-center gap-4 px-4 py-8">
         <a
           class="font-semibold hover:text-fore-base/80 focus-visible:(outline-none ring-2 ring-fore-base ring-offset-2 ring-offset-back-base)"
-          href="./bugs"
+          href="https://whois.yes.al"
           target="_blank"
         >
-          report bugs
+          whois查询
         </a>
         <a
           class="font-semibold hover:text-fore-base/80 focus-visible:(outline-none ring-2 ring-fore-base ring-offset-2 ring-offset-back-base)"
-          href="https://github.com/zhengkyl/qrframe"
+          href="https://mogu.im"
           target="_blank"
         >
-          source code
+          蘑菇文件速递
         </a>
         <a
           class="font-semibold hover:text-fore-base/80 focus-visible:(outline-none ring-2 ring-fore-base ring-offset-2 ring-offset-back-base)"
-          href="https://kylezhe.ng/posts/crafting_qr_codes"
+          href="https://www.yes.al/"
           target="_blank"
         >
-          blog post
+          狼狗跨域追踪
         </a>
       </footer>
     </>
