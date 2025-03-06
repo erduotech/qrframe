@@ -31,7 +31,7 @@ export const paramsSchema = {
 };
 
 export function renderSVG(qr, params) {
-  const rand = getSeededRand(params["Seed"]);
+  const rand = getSeededRand(params["种子"]);
   const rangeStr = (min, max) => (rand() * (max - min) + min).toFixed(2);
 
   const rowLen = qr.version * 4 + 17;
