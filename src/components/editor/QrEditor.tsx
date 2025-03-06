@@ -315,7 +315,7 @@ export function Editor(props: Props) {
       <Collapsible trigger="数据">
         <Settings />
       </Collapsible>
-      <Collapsible trigger="Render" defaultOpen>
+      <Collapsible trigger="设置" defaultOpen>
         <ControlledDialog
           open={renameOpen()}
           setOpen={setRenameOpen}
