@@ -306,8 +306,8 @@ export function Editor(props: Props) {
   return (
     <div class={props.class}>
       <TextareaInput
-        placeholder="https://qrframe.kylezhe.ng"
-        setValue={(s) => setInputQr("text", s || "https://qrframe.kylezhe.ng")}
+        placeholder="请输入要生成的网址，或者文字内容"
+        setValue={(s) => setInputQr("text", s || "请输入要生成的网址，或者文字内容")}
         onFocus={props.onTextFocus}
         onBlur={props.onTextBlur}
         ref={props.textRef}
