@@ -35,10 +35,10 @@ export function renderSVG(qr, params) {
   const rangeStr = (min, max) => (rand() * (max - min) + min).toFixed(2);
 
   const rowLen = qr.version * 4 + 17;
-  const margin = params["Margin"];
-  const bg = params["Background"];
-  const dots = params["Dots"];
-  const lines = params["Lines"];
+  const margin = params["尺寸"];
+  const bg = params["背景"];
+  const dots = params["图点"];
+  const lines = params["线条"];
 
   const size = rowLen + 2 * margin;
   let svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${-margin} ${-margin} ${size} ${size}">`;
